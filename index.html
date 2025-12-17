@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>O Começo 💛</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #ffe6f0, #fff3c4);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      color: #3a3a3a;
+    }
+    .card {
+      background: #ffffff;
+      max-width: 560px;
+      width: 100%;
+      padding: 36px 32px;
+      border-radius: 22px;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .polaroid {
+      background: #fff;
+      padding: 12px 12px 26px;
+      width: 240px;
+      margin: 10px auto 26px;
+      border-radius: 6px;
+      box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+      transform: rotate(-3deg);
+    }
+
+    .polaroid img {
+      width: 100%;
+      border-radius: 4px;
+      display: block;
+    }
+
+    .polaroid span {
+      display: block;
+      margin-top: 10px;
+      font-size: 0.95rem;
+      color: #555;
+      font-style: italic;
+    }
+    .card::before {
+      content: '✨';
+      position: absolute;
+      top: -10px;
+      right: 20px;
+      font-size: 48px;
+      opacity: 0.25;
+      transform: rotate(12deg);
+    }
+    h1 {
+      margin-top: 0;
+      color: #e35d8a;
+      font-size: 2.1rem;
+    }
+    .subtitle {
+      font-size: 1rem;
+      color: #777;
+      margin-bottom: 18px;
+    }
+    p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin: 14px 0;
+    }
+    .heart {
+      font-size: 46px;
+      margin: 10px 0 6px;
+      animation: pulse 1.6s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+      100% { transform: scale(1); }
+    }
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, #f2a6c6, transparent);
+      margin: 22px 0;
+    }
+    .note {
+      background: #fff6fb;
+      border-radius: 14px;
+      padding: 16px;
+      font-size: 0.98rem;
+      color: #555;
+    }
+    .footer {
+      margin-top: 20px;
+      font-size: 0.95rem;
+      color: #666;
+    }
+    .soft {
+      color: #e35d8a;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="heart">💛</div>
+    <div class="polaroid">
+      <img src="foto1.jpg" alt="Uma foto sua">
+      <span>Uma foto do começo da sua vida pra simbolizar o começo da nossa vida 💛</span>
+    </div>
+    <h1>O começo</h1>
+    <div class="subtitle">onde tudo começou pra mim</div>
+
+    <p>
+      Talvez você não saiba exatamente o momento em que isso aconteceu,
+      mas eu sei. Foi quando sua presença começou a fazer sentido
+      até nos dias mais comuns.
+    </p>
+
+    <p>
+      Não foi algo grandioso ou planejado. Foi simples. Natural.
+      Aos poucos, você foi se tornando aquele pensamento bom que aparece
+      do nada e faz o coração ficar calmo.
+    </p>
+
+    <div class="divider"></div>
+
+    <p>
+      O começo não foi sobre promessas ou certezas.
+      Foi sobre sentir que, de algum jeito,
+      estar perto de você deixava tudo um pouco melhor.
+    </p>
+
+    <p>
+      Seu jeito, suas palavras, seu sorriso…
+      coisas pequenas, mas que ficaram grandes pra mim.
+    </p>
+
+    <div class="note">
+      <p>
+        Esse site existe só pra te lembrar de uma coisa:
+        desde o começo, você já era especial.
+      </p>
+    </div>
+
+    <div class="footer">
+      <p class="soft">Esse é só a primeira carta 💫</p>
+      <p>Abra a carta 2.</p>
+    </div>
+  </main>
+</body>
+</html>
