@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>O Futuro 💛</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0f1020, #1f2040);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #f3f3f3;
+      padding: 28px 18px 60px;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; }
+    .card {
+      background: linear-gradient(180deg, #1b1c3a, #14152e);
+      border-radius: 26px;
+      padding: 40px 30px 44px;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.45);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .glow {
+      position: absolute;
+      inset: -40%;
+      background: radial-gradient(circle at 50% 0%, rgba(255,255,255,0.08), transparent 45%);
+      pointer-events: none;
+    }
+    h1 {
+      margin: 0 0 6px;
+      color: #ffd56b;
+      font-size: 2.3rem;
+      letter-spacing: 0.5px;
+    }
+    .subtitle {
+      color: #cfcfe8;
+      margin-bottom: 22px;
+      font-size: 1.02rem;
+    }
+    p {
+      font-size: 1.08rem;
+      line-height: 1.8;
+      margin: 18px 0;
+    }
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, #ffd56b, transparent);
+      margin: 30px 0;
+    }
+
+    /* Polaroids */
+    .polaroids {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      margin: 26px 0 34px;
+      align-items: start;
+    }
+    .polaroid {
+      background: #fff;
+      color: #333;
+      padding: 12px 12px 28px;
+      border-radius: 6px;
+      box-shadow: 0 14px 28px rgba(0,0,0,0.35);
+    }
+    .tilt-1 { transform: rotate(-2.5deg); }
+    .tilt-2 { transform: rotate(2deg); }
+    .tilt-3 { transform: rotate(-1deg); }
+
+    .polaroid img {
+      width: 100%;
+      border-radius: 4px;
+      display: block;
+    }
+    .polaroid span {
+      display: block;
+      margin-top: 10px;
+      font-size: 0.95rem;
+      color: #555;
+      font-style: italic;
+    }
+
+    .promise {
+      background: rgba(255,213,107,0.08);
+      border-radius: 18px;
+      padding: 20px 18px;
+      margin-top: 14px;
+      color: #f5f5ff;
+    }
+
+    .footer {
+      margin-top: 26px;
+      font-size: 0.95rem;
+      color: #cfcfe8;
+    }
+    .soft { color: #ffd56b; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <main class="card">
+      <div class="glow"></div>
+      <h1>O futuro</h1>
+      <div class="subtitle">o que eu escolho construir com você</div>
+
+      <p>
+        Eu não sei exatamente como tudo vai ser.
+        Mas sei com quem eu quero tentar.
+      </p>
+
+      <p>
+        O futuro que eu imagino não é perfeito.
+        Ele é real. Com dias bons, dias difíceis,
+        e a escolha diária de continuar.
+      </p>
+
+      <div class="divider"></div>
+
+      <div class="polaroids">
+        <div class="polaroid tilt-1">
+          <img src="foto6.png" alt="Polaroid futuro 1" />
+          <span>"Nossos destinos foram traçados na maternidade..."</span>
+        </div>
+        <div class="polaroid tilt-2">
+          <img src="foto7.jpg" alt="Polaroid futuro 2" />
+          <span>Perserverando juntos</span>
+        </div>
+        <div class="polaroid tilt-3">
+          <img src="foto8.jpg" alt="Polaroid futuro 3" />
+          <span>Onde quero te levar</span>
+        </div>
+      </div>
+
+      <p>
+        Não prometo respostas pra tudo.
+        Prometo presença, cuidado e verdade.
+      </p>
+
+      <div class="promise">
+        <p>
+          Enquanto existir nós,
+          eu escolho ficar.
+        </p>
+      </div>
+
+      <div class="footer">
+        <p class="soft">Essa é a últimacarta ✨</p>
+        <p>Mas não é o fim, é apenas o começo, o começo de uma eternidade.</p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
